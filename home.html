@@ -1,0 +1,72 @@
+<html>
+ <head>
+   <title>Property display</title>
+   
+<style>
+  body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h3 {
+    color:purple;
+    text-transform:uppercase;
+}
+  </style>
+   
+ </head>
+ <body>
+  <!-- Reference https://www.w3schools.com/css/css_navbar.asp-->
+
+  <ul>
+    <li><a href="home.html" class="active">Home</a></li>
+    <li><a href="houses.php">Our houses</a></li>
+    <li><a href="owners.php">Owners</a></li>
+    <li><a href="review.html">Review</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    <li><a href="about.php">About</a></li>
+    
+  </ul>
+
+  <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+  <h3 style="color:red; text-transform: uppercase;">Our top rated properties</h3>
+  <p>
+   Contemporary house<br/>
+   
+   <img src="images/house1.jpeg"/>
+  </p>
+  <p>
+   Beach house<br/>
+   <img src="images/house2.jpeg"/>
+  </p>
+  </div>
+ 
+ </body>
+</html>
